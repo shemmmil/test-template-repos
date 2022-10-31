@@ -2,7 +2,7 @@
   const core = require("@actions/core");
 
   try {
-    const file = require("./json");
+    const file = require("../scripts/deployment/deployentaddresses.json");
   } catch (error) {
     core.setFailed(error.message);
   }

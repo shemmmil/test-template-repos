@@ -3,7 +3,7 @@
 
   try {
     const file = require("./json");
-  } catch (err) {
+  } catch (error) {
     core.setFailed(error.message);
   }
 })();
